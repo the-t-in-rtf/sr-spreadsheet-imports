@@ -1,0 +1,22 @@
+{
+    "name": "sr-spreadsheet-imports",
+    "version": "1.0.0",
+    "description": "Utility scripts to extract solutions data from google sheets.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Tony Atkins <tony@raisingthefloor.org>",
+    "license": "BSD-3-Clause",
+    "dependencies": {
+        "fast-csv": "2.4.1",
+        "infusion": "3.0.0-dev.20171121T212609Z.9b4fde781",
+        "json5": "1.0.1"
+    },
+    "devDependencies": {
+        "eslint": "4.6.1",
+        "eslint-config-fluid": "1.1.0",
+        "gpii-grunt-lint-all": "1.0.5",
+        "grunt": "1.0.3"
+    }
+}
